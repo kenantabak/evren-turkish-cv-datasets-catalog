@@ -3,7 +3,7 @@
 [![Hugging Face Catalog](https://img.shields.io/badge/Hugging_Face-Parquet_%26_Sample_Images-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/kenantabak/evren-turkish-computer-vision-316-datasets)
 [![Interactive Explorer](https://img.shields.io/badge/HF_Space-Canlı_Veri_Seti_Gezgini-10b981?style=flat-square)](https://huggingface.co/spaces/kenantabak/EVREN-316-Datasets-Catalog)
 
-**[EVREN](https://evren.ssyz.org.tr/users/u19979974710e)** platformunda `CC-BY-4.0` lisansıyla yayımlanan **316 adet bilgisayarlı görü veri setinin (`3.292.480` görsel · `31.363.042` etiket)** makine tarafından okunabilir `CSV`/`JSON` indeksi, CLI arama aracı ve keşif defteri (`Jupyter Notebook`).
+**[EVREN](https://evren.ssyz.org.tr/users/u19979974710e)** platformunda `CC-BY-4.0` lisansıyla yayımlanan **328 adet bilgisayarlı görü veri setinin (`3.292.480` görsel · `31.363.042` etiket)** makine tarafından okunabilir `CSV`/`JSON` indeksi, CLI arama aracı ve keşif defteri (`Jupyter Notebook`).
 
 > Tam görsel önizlemeli Parquet tabloları ve örnek YOLO etiket paketleri için **[Hugging Face Koleksiyonu](https://huggingface.co/datasets/kenantabak/evren-turkish-computer-vision-316-datasets)** ziyaret edilebilir.
 
