@@ -3,7 +3,7 @@
 [![Hugging Face Catalog](https://img.shields.io/badge/Hugging_Face-Parquet_%26_Sample_Images-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/kenantabak/evren-turkish-computer-vision-316-datasets)
 [![Interactive Explorer](https://img.shields.io/badge/HF_Space-Canlı_Veri_Seti_Gezgini-10b981?style=flat-square)](https://huggingface.co/spaces/kenantabak/EVREN-316-Datasets-Catalog)
 
-**[EVREN](https://evren.ssyz.org.tr/users/u19979974710e)** platformunda `CC-BY-4.0` lisansıyla yayımlanan **328 adet bilgisayarlı görü veri setinin (`3.292.480` görsel · `31.363.042` etiket)** makine tarafından okunabilir `CSV`/`JSON` indeksi, CLI arama aracı ve keşif defteri (`Jupyter Notebook`).
+**[EVREN](https://evren.ssyz.org.tr/users/u19979974710e)** platformunda `CC-BY-4.0` lisansıyla yayımlanan **342 adet bilgisayarlı görü veri setinin (`3.292.480` görsel · `31.363.042` etiket)** makine tarafından okunabilir `CSV`/`JSON` indeksi, CLI arama aracı ve keşif defteri (`Jupyter Notebook`).
 
 > Tam görsel önizlemeli Parquet tabloları ve örnek YOLO etiket paketleri için **[Hugging Face Koleksiyonu](https://huggingface.co/datasets/kenantabak/evren-turkish-computer-vision-316-datasets)** ziyaret edilebilir.
 
@@ -52,3 +52,12 @@ python scripts/search_catalog.py --query drone --min-images 500 --limit 15
 | 23 | [PCB Baskı Devre Kartı Kusur Tespiti (6 Sınıf)](https://evren.ssyz.org.tr/datasets/u19979974710e/pcb-baski-devre-karti-kusur-tespiti-6-sinif) | `object-detection` | **24,896** | 53,707 | 6 |
 | 24 | [İskambil Kartları Nesne Tespiti — Genişletilmiş (52 Sınıf)](https://evren.ssyz.org.tr/datasets/u19979974710e/iskambil-kartlari-nesne-tespiti-genisletilmis-52-sinif) | `object-detection` | **24,233** | 96,909 | 52 |
 | 25 | [Hava Görüntülerinden Küçük Ölçekli Taşıt Tespiti (2 Sınıf)](https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-kucuk-olcekli-tasit-tespiti-2-sinif) | `object-detection` | **24,127** | 563,353 | 2 |
+
+---
+
+### 🔗 EVREN Open-Source Ecosystem
+- **EVREN Platform:** [evren.ssyz.org.tr/users/u19979974710e](https://evren.ssyz.org.tr/users/u19979974710e) (`342` Grade-A Datasets · `185` Models)
+- **Live Browser ONNX Demo Space:** [EVREN-Live-Object-Detection-Demo](https://huggingface.co/spaces/kenantabak/EVREN-Live-Object-Detection-Demo)
+- **Hugging Face Portfolio:** [huggingface.co/kenantabak](https://huggingface.co/kenantabak) (`19` Production Models · `10` Datasets · `4` Spaces)
+- **GitHub:** [github.com/kenantabak](https://github.com/kenantabak)
+- **Dev.to Technical Series:** [dev.to/kenantabak](https://dev.to/kenantabak)
