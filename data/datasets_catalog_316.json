@@ -1859,6 +1859,17 @@
     "health": "90 (A)"
   },
   {
+    "name": "Mango Meyvesi Olgunluk Derecesi (Ham, Orta, Olgun) Tespiti (3 Sınıf)",
+    "slug": "mango-meyvesi-olgunluk-derecesi-ham-orta-olgun-tespiti-3-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/mango-meyvesi-olgunluk-derecesi-ham-orta-olgun-tespiti-3-sinif",
+    "tasks": "object-detection",
+    "image_count": 2898,
+    "annotation_count": 4045,
+    "class_count": 3,
+    "sample_classes": "Medium, Ripe, Unripe",
+    "health": "100 (A)"
+  },
+  {
     "name": "Ormancılık ve Tarım Alanlarında Ağaç Gövdesi Tespiti (2 Sınıf)",
     "slug": "ormancilik-ve-tarim-alanlarinda-agac-govdesi-tespiti-2-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/ormancilik-ve-tarim-alanlarinda-agac-govdesi-tespiti-2-sinif",
@@ -2387,9 +2398,9 @@
     "health": "90 (A)"
   },
   {
-    "name": "PASCAL VOC Genel Nesne Tespiti — 20 Sınıflı Karma Küme (19 Sınıf)",
-    "slug": "pascal-voc-genel-nesne-tespiti-20-sinifli-karma-kume-19-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/pascal-voc-genel-nesne-tespiti-20-sinifli-karma-kume-19-sinif",
+    "name": "PASCAL VOC Genel Nesne Tespiti — Karma Küme (19 Sınıf)",
+    "slug": "pascal-voc-genel-nesne-tespiti-karma-kume-19-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/pascal-voc-genel-nesne-tespiti-karma-kume-19-sinif",
     "tasks": "object-detection",
     "image_count": 1970,
     "annotation_count": 4416,
@@ -3220,17 +3231,6 @@
     "annotation_count": 6175,
     "class_count": 10,
     "sample_classes": "Dime, Nickel, Penny, Quarter, fifty, five, hundred, one, ten, twenty",
-    "health": "90 (A)"
-  },
-  {
-    "name": "Çok Türlü Kara ve Raylı Ulaşım Araçları Tespiti (5 Sınıf)",
-    "slug": "cok-turlu-kara-ve-rayli-ulasim-araclari-tespiti-5-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/cok-turlu-kara-ve-rayli-ulasim-araclari-tespiti-5-sinif",
-    "tasks": "object-detection",
-    "image_count": 788,
-    "annotation_count": 1616,
-    "class_count": 5,
-    "sample_classes": "Bicycle, Bus, Car, Motorcycle, Truck",
     "health": "90 (A)"
   },
   {
