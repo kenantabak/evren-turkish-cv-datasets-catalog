@@ -308,17 +308,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Hava Görüntülerinden Endüstriyel Saha, Bina ve Ağır Vasıta Tespiti (60 Sınıf)",
-    "slug": "hava-goruntulerinden-endustriyel-saha-bina-ve-agir-vasita-tespiti-60-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-endustriyel-saha-bina-ve-agir-vasita-tespiti-60-sinif",
-    "tasks": "object-detection",
-    "image_count": 22372,
-    "annotation_count": 1093119,
-    "class_count": 60,
-    "sample_classes": "Aircraft Hangar, Barge, Building, Bus, Cargo Truck, Cargo-Container Car, Cement Mixer, Construction Site, Container Crane, Container Ship",
-    "health": "90 (A)"
-  },
-  {
     "name": "Denizcilik Gözetimi İçin Balıkçı Teknesi, Ticari Gemi ve Savaş Gemisi Tespiti (5 Sınıf)",
     "slug": "denizcilik-gozetimi-icin-balikci-teknesi-ticari-gemi-ve-savas-gemisi-tespiti-5-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/denizcilik-gozetimi-icin-balikci-teknesi-ticari-gemi-ve-savas-gemisi-tespiti-5-sinif",
@@ -440,17 +429,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "İş Güvenliği Yeleği Tespiti (2 Sınıf)",
-    "slug": "is-guvenligi-yelegi-tespiti-2-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/is-guvenligi-yelegi-tespiti-2-sinif",
-    "tasks": "object-detection",
-    "image_count": 14809,
-    "annotation_count": 32031,
-    "class_count": 2,
-    "sample_classes": "no_safety_vest, safety_vest",
-    "health": "90 (A)"
-  },
-  {
     "name": "Drone Görüntülerinden Yaban Hayatı ve Sürü Hayvanı Tespiti (6 Sınıf)",
     "slug": "drone-goruntulerinden-yaban-hayati-ve-suru-hayvani-tespiti-6-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/drone-goruntulerinden-yaban-hayati-ve-suru-hayvani-tespiti-6-sinif",
@@ -495,6 +473,28 @@
     "health": "90 (A)"
   },
   {
+    "name": "Panoramik Diş Röntgeni Diş Numaralandırma ve Tespiti (31 Sınıf)",
+    "slug": "panoramik-dis-rontgeni-dis-numaralandirma-ve-tespiti-31-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/panoramik-dis-rontgeni-dis-numaralandirma-ve-tespiti-31-sinif",
+    "tasks": "image-segmentation",
+    "image_count": 13645,
+    "annotation_count": 133663,
+    "class_count": 31,
+    "sample_classes": "Bone Loss, Caries, Crown, Cyst, Filling, Fracture teeth, Implant, Malaligned, Mandibular Canal, Missing teeth",
+    "health": "90 (A)"
+  },
+  {
+    "name": "FLIR Termal Kamera Yaya, Araç, Bisiklet ve Köpek Tespiti (4 Sınıf)",
+    "slug": "flir-termal-kamera-yaya-arac-bisiklet-ve-kopek-tespiti-4-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/flir-termal-kamera-yaya-arac-bisiklet-ve-kopek-tespiti-4-sinif",
+    "tasks": "object-detection",
+    "image_count": 13596,
+    "annotation_count": 84006,
+    "class_count": 4,
+    "sample_classes": "bicycle, car, dog, person",
+    "health": "100 (A)"
+  },
+  {
     "name": "Sel ve Su Baskını Seviyesi Tespiti (2 Sınıf)",
     "slug": "sel-ve-su-baskini-seviyesi-tespiti-2-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/sel-ve-su-baskini-seviyesi-tespiti-2-sinif",
@@ -525,17 +525,6 @@
     "annotation_count": 38206,
     "class_count": 1,
     "sample_classes": "hand",
-    "health": "90 (A)"
-  },
-  {
-    "name": "Fotokapan Yaban Hayatı Nesne Tespiti (5 Sınıf)",
-    "slug": "fotokapan-yaban-hayati-nesne-tespiti-5-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/fotokapan-yaban-hayati-nesne-tespiti-5-sinif",
-    "tasks": "object-detection",
-    "image_count": 12127,
-    "annotation_count": 16937,
-    "class_count": 5,
-    "sample_classes": "Coyote, Deer, Hog, Rabbit, Raccoon",
     "health": "90 (A)"
   },
   {
@@ -1837,9 +1826,9 @@
     "health": "100 (A)"
   },
   {
-    "name": "Hava Görüntülerinden Trafik Araçları ve Yaya Tespiti (6 Sınıf)",
-    "slug": "hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
+    "name": "Hava Görüntüsü Tabanlı Açık Alan Nesne Tespiti (6 Sınıf)",
+    "slug": "hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
     "tasks": "object-detection",
     "image_count": 2985,
     "annotation_count": 153581,
@@ -1848,9 +1837,9 @@
     "health": "100 (A)"
   },
   {
-    "name": "Hava Görüntüsü Tabanlı Açık Alan Nesne Tespiti (6 Sınıf)",
-    "slug": "hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
+    "name": "Hava Görüntülerinden Trafik Araçları ve Yaya Tespiti (6 Sınıf)",
+    "slug": "hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
     "tasks": "object-detection",
     "image_count": 2985,
     "annotation_count": 153581,
@@ -2142,6 +2131,17 @@
     "annotation_count": 3134,
     "class_count": 2,
     "sample_classes": "Boat, Ship",
+    "health": "90 (A)"
+  },
+  {
+    "name": "Trafik Taşıtları ve Hız Sınırı Levhaları Tespiti (16 Sınıf)",
+    "slug": "trafik-tasitlari-ve-hiz-siniri-levhalari-tespiti-16-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/trafik-tasitlari-ve-hiz-siniri-levhalari-tespiti-16-sinif",
+    "tasks": "object-detection",
+    "image_count": 2519,
+    "annotation_count": 7100,
+    "class_count": 16,
+    "sample_classes": "bus, car, motorbike, person, speed_limit_100, speed_limit_120, speed_limit_20, speed_limit_30, speed_limit_40, speed_limit_50",
     "health": "90 (A)"
   },
   {
@@ -3432,6 +3432,17 @@
     "health": "90 (A)"
   },
   {
+    "name": "Şantiye Mobil Vinç, Buldozer, Ekskavatör ve İş Makineleri Tespiti (5 Sınıf)",
+    "slug": "santiye-mobil-vinc-buldozer-ekskavator-ve-is-makineleri-tespiti-5-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/santiye-mobil-vinc-buldozer-ekskavator-ve-is-makineleri-tespiti-5-sinif",
+    "tasks": "object-detection",
+    "image_count": 690,
+    "annotation_count": 824,
+    "class_count": 5,
+    "sample_classes": "Bull_dozer, Dumb_truck, Excavator, Loader, Mobile_crane",
+    "health": "100 (A)"
+  },
+  {
     "name": "İç Mekan Sandalye, Koltuk ve Masa Mobilya Tespiti (3 Sınıf)",
     "slug": "ic-mekan-sandalye-koltuk-ve-masa-mobilya-tespiti-3-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/ic-mekan-sandalye-koltuk-ve-masa-mobilya-tespiti-3-sinif",
@@ -3627,17 +3638,6 @@
     "annotation_count": 934,
     "class_count": 4,
     "sample_classes": "G-arboreum, G-barbadense, G-herbaceum, G-hirsitum",
-    "health": "90 (A)"
-  },
-  {
-    "name": "Yer Fıstığı Küf ve Kalite Kontrol Tespiti (2 Sınıf)",
-    "slug": "yer-fistigi-kuf-ve-kalite-kontrol-tespiti-2-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/yer-fistigi-kuf-ve-kalite-kontrol-tespiti-2-sinif",
-    "tasks": "object-detection",
-    "image_count": 387,
-    "annotation_count": 19350,
-    "class_count": 2,
-    "sample_classes": "with mold, without mold",
     "health": "90 (A)"
   },
   {
