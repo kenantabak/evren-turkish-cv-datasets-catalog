@@ -297,17 +297,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Hava Görüntülerinden Endüstriyel Saha, Bina ve Ağır Vasıta Tespiti (60 Sınıf)",
-    "slug": "hava-goruntulerinden-endustriyel-saha-bina-ve-agir-vasita-tespiti-60-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-endustriyel-saha-bina-ve-agir-vasita-tespiti-60-sinif",
-    "tasks": "object-detection",
-    "image_count": 22372,
-    "annotation_count": 1093119,
-    "class_count": 60,
-    "sample_classes": "Aircraft Hangar, Barge, Building, Bus, Cargo Truck, Cargo-Container Car, Cement Mixer, Construction Site, Container Crane, Container Ship",
-    "health": "90 (A)"
-  },
-  {
     "name": "Denizcilik Gözetimi İçin Balıkçı Teknesi, Ticari Gemi ve Savaş Gemisi Tespiti (5 Sınıf)",
     "slug": "denizcilik-gozetimi-icin-balikci-teknesi-ticari-gemi-ve-savas-gemisi-tespiti-5-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/denizcilik-gozetimi-icin-balikci-teknesi-ticari-gemi-ve-savas-gemisi-tespiti-5-sinif",
@@ -440,17 +429,6 @@
     "health": "100 (A)"
   },
   {
-    "name": "İş Güvenliği Yeleği Tespiti (2 Sınıf)",
-    "slug": "is-guvenligi-yelegi-tespiti-2-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/is-guvenligi-yelegi-tespiti-2-sinif",
-    "tasks": "object-detection",
-    "image_count": 14809,
-    "annotation_count": 32031,
-    "class_count": 2,
-    "sample_classes": "no_safety_vest, safety_vest",
-    "health": "100 (A)"
-  },
-  {
     "name": "Drone Görüntülerinden Yaban Hayatı ve Sürü Hayvanı Tespiti (6 Sınıf)",
     "slug": "drone-goruntulerinden-yaban-hayati-ve-suru-hayvani-tespiti-6-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/drone-goruntulerinden-yaban-hayati-ve-suru-hayvani-tespiti-6-sinif",
@@ -561,6 +539,17 @@
     "health": "100 (A)"
   },
   {
+    "name": "Fotokapan Yaban Hayatı Nesne Tespiti (5 Sınıf)",
+    "slug": "fotokapan-yaban-hayati-nesne-tespiti-5-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/fotokapan-yaban-hayati-nesne-tespiti-5-sinif",
+    "tasks": "object-detection",
+    "image_count": 12127,
+    "annotation_count": 16937,
+    "class_count": 5,
+    "sample_classes": "Coyote, Deer, Hog, Rabbit, Raccoon",
+    "health": "100 (A)"
+  },
+  {
     "name": "Akademik Makale Sayfa Düzeni ve Bölüm Tespiti (19 Sınıf)",
     "slug": "akademik-makale-sayfa-duzeni-ve-bolum-tespiti-19-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/akademik-makale-sayfa-duzeni-ve-bolum-tespiti-19-sinif",
@@ -575,6 +564,17 @@
     "name": "İş Güvenliği Sahasında Baret, Baş ve Çalışan Tespiti (3 Sınıf)",
     "slug": "is-guvenligi-sahasinda-baret-bas-ve-calisan-tespiti-3-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/is-guvenligi-sahasinda-baret-bas-ve-calisan-tespiti-3-sinif",
+    "tasks": "object-detection",
+    "image_count": 12035,
+    "annotation_count": 52541,
+    "class_count": 3,
+    "sample_classes": "head, helmet, person",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Şantiye Güvenlik Bareti ve Baş Tespiti (3 Sınıf)",
+    "slug": "santiye-guvenlik-bareti-ve-bas-tespiti-3-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/santiye-guvenlik-bareti-ve-bas-tespiti-3-sinif",
     "tasks": "object-detection",
     "image_count": 12035,
     "annotation_count": 52541,
@@ -748,25 +748,14 @@
     "health": "90 (A)"
   },
   {
-    "name": "Genel Amaçlı 20 Sınıf Günlük Nesne Tespiti (19 Sınıf)",
-    "slug": "genel-amacli-20-sinif-gunluk-nesne-tespiti-19-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/genel-amacli-20-sinif-gunluk-nesne-tespiti-19-sinif",
+    "name": "Genel Amaçlı Günlük Nesne Tespiti (19 Sınıf)",
+    "slug": "genel-amacli-gunluk-nesne-tespiti-19-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/genel-amacli-gunluk-nesne-tespiti-19-sinif",
     "tasks": "object-detection",
     "image_count": 9898,
-    "annotation_count": 22369,
+    "annotation_count": 22389,
     "class_count": 19,
     "sample_classes": "aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow",
-    "health": "100 (A)"
-  },
-  {
-    "name": "Kavşak Trafiği Yaya, Bisikletli ve Araç Tespiti (5 Sınıf)",
-    "slug": "kavsak-trafigi-yaya-bisikletli-ve-arac-tespiti-5-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kavsak-trafigi-yaya-bisikletli-ve-arac-tespiti-5-sinif",
-    "tasks": "object-detection",
-    "image_count": 9897,
-    "annotation_count": 121669,
-    "class_count": 5,
-    "sample_classes": "bus, construction, cyclist, pedestrian, vehicle",
     "health": "100 (A)"
   },
   {
@@ -779,6 +768,17 @@
     "class_count": 8,
     "sample_classes": "Basophil, Eosinophil, Erythroblast, IG, Lymphocyte, Monocyte, Neutrophil, Platelets",
     "health": "90 (A)"
+  },
+  {
+    "name": "Kavşak Trafiği Yaya, Bisikletli ve Araç Tespiti (5 Sınıf)",
+    "slug": "kavsak-trafigi-yaya-bisikletli-ve-arac-tespiti-5-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kavsak-trafigi-yaya-bisikletli-ve-arac-tespiti-5-sinif",
+    "tasks": "object-detection",
+    "image_count": 9897,
+    "annotation_count": 121669,
+    "class_count": 5,
+    "sample_classes": "bus, construction, cyclist, pedestrian, vehicle",
+    "health": "100 (A)"
   },
   {
     "name": "Rüzgar Türbini Kanat Hasarı ve Yüzey Kusuru Tespiti (9 Sınıf)",
@@ -891,17 +891,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Hava Görüntüsünden Çoklu Kara Aracı Tespiti (4 Sınıf)",
-    "slug": "hava-goruntusunden-coklu-kara-araci-tespiti-4-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntusunden-coklu-kara-araci-tespiti-4-sinif",
-    "tasks": "object-detection",
-    "image_count": 8626,
-    "annotation_count": 245079,
-    "class_count": 4,
-    "sample_classes": "bus, car, truck, van",
-    "health": "100 (A)"
-  },
-  {
     "name": "İHA Hava Kamerasından Kentsel Trafik ve Yaya Tespiti (10 Sınıf)",
     "slug": "iha-hava-kamerasindan-kentsel-trafik-ve-yaya-tespiti-10-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/iha-hava-kamerasindan-kentsel-trafik-ve-yaya-tespiti-10-sinif",
@@ -910,6 +899,17 @@
     "annotation_count": 456987,
     "class_count": 10,
     "sample_classes": "awning-tricycle, bicycle, bus, car, motor, pedestrian, people, tricycle, truck, van",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Hava Görüntüsünden Çoklu Kara Aracı Tespiti (4 Sınıf)",
+    "slug": "hava-goruntusunden-coklu-kara-araci-tespiti-4-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntusunden-coklu-kara-araci-tespiti-4-sinif",
+    "tasks": "object-detection",
+    "image_count": 8626,
+    "annotation_count": 245079,
+    "class_count": 4,
+    "sample_classes": "bus, car, truck, van",
     "health": "100 (A)"
   },
   {
@@ -1012,9 +1012,31 @@
     "health": "100 (A)"
   },
   {
+    "name": "Kamusal Alanlarda Yüz ve Tıbbi Maske Kullanımı Tespiti (2 Sınıf)",
+    "slug": "kamusal-alanlarda-yuz-ve-tibbi-maske-kullanimi-tespiti-2-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kamusal-alanlarda-yuz-ve-tibbi-maske-kullanimi-tespiti-2-sinif",
+    "tasks": "object-detection",
+    "image_count": 7693,
+    "annotation_count": 15448,
+    "class_count": 2,
+    "sample_classes": "face, face_mask",
+    "health": "100 (A)"
+  },
+  {
     "name": "Kamusal Alan Yüz ve Maske Kullanımı Tespiti (2 Sınıf)",
     "slug": "kamusal-alan-yuz-ve-maske-kullanimi-tespiti-2-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kamusal-alan-yuz-ve-maske-kullanimi-tespiti-2-sinif",
+    "tasks": "object-detection",
+    "image_count": 7693,
+    "annotation_count": 15448,
+    "class_count": 2,
+    "sample_classes": "face, face_mask",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Kamusal Alanlarda Yüz ve Tıbbi Maske Kullanımı Tespiti (2 Sınıf)",
+    "slug": "kamusal-alanlarda-yuz-ve-tibbi-maske-kullanimi-tespiti-2-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kamusal-alanlarda-yuz-ve-tibbi-maske-kullanimi-tespiti-2-sinif",
     "tasks": "object-detection",
     "image_count": 7693,
     "annotation_count": 15448,
@@ -1221,17 +1243,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Geniş Ölçekli Endüstriyel Eldiven Bot ve KKD Tespiti (8 Sınıf)",
-    "slug": "genis-olcekli-endustriyel-eldiven-bot-ve-kkd-tespiti-8-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/genis-olcekli-endustriyel-eldiven-bot-ve-kkd-tespiti-8-sinif",
-    "tasks": "object-detection",
-    "image_count": 6369,
-    "annotation_count": 11359,
-    "class_count": 8,
-    "sample_classes": "boot, glasses, glove, hard_hat, no_hard_hat, no_vest, person, vest",
-    "health": "90 (A)"
-  },
-  {
     "name": "Geniş Ölçekli Kuş Tespiti (1 Sınıf)",
     "slug": "genis-olcekli-kus-tespiti-1-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/genis-olcekli-kus-tespiti-1-sinif",
@@ -1430,28 +1441,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "İnşaat Sahası Kask ve Yelek Güvenlik Tespiti (3 Sınıf)",
-    "slug": "insaat-sahasi-kask-ve-yelek-guvenlik-tespiti-3-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/insaat-sahasi-kask-ve-yelek-guvenlik-tespiti-3-sinif",
-    "tasks": "object-detection",
-    "image_count": 5000,
-    "annotation_count": 25502,
-    "class_count": 3,
-    "sample_classes": "head, helmet, person",
-    "health": "100 (A)"
-  },
-  {
-    "name": "Bağlam İçinde Günlük Nesneler Segmentasyonu — 5K Kümesi (80 Sınıf)",
-    "slug": "baglam-icinde-gunluk-nesneler-segmentasyonu-5k-kumesi-80-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/baglam-icinde-gunluk-nesneler-segmentasyonu-5k-kumesi-80-sinif",
-    "tasks": "image-segmentation",
-    "image_count": 5000,
-    "annotation_count": 41420,
-    "class_count": 80,
-    "sample_classes": "insan, bisiklet, otomobil, motosiklet, uçak, otobüs, tren, kamyon, tekne, trafik ışığı",
-    "health": "90 (A)"
-  },
-  {
     "name": "Saha ve Laboratuvar Robotik Sistem Tespiti (3 Sınıf)",
     "slug": "saha-ve-laboratuvar-robotik-sistem-tespiti-3-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/saha-ve-laboratuvar-robotik-sistem-tespiti-3-sinif",
@@ -1472,6 +1461,28 @@
     "class_count": 3,
     "sample_classes": "head, helmet, person",
     "health": "100 (A)"
+  },
+  {
+    "name": "İnşaat Sahası Kask ve Yelek Güvenlik Tespiti (3 Sınıf)",
+    "slug": "insaat-sahasi-kask-ve-yelek-guvenlik-tespiti-3-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/insaat-sahasi-kask-ve-yelek-guvenlik-tespiti-3-sinif",
+    "tasks": "object-detection",
+    "image_count": 5000,
+    "annotation_count": 25502,
+    "class_count": 3,
+    "sample_classes": "head, helmet, person",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Bağlam İçinde Günlük Nesneler Segmentasyonu — 5K Kümesi (80 Sınıf)",
+    "slug": "baglam-icinde-gunluk-nesneler-segmentasyonu-5k-kumesi-80-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/baglam-icinde-gunluk-nesneler-segmentasyonu-5k-kumesi-80-sinif",
+    "tasks": "image-segmentation",
+    "image_count": 5000,
+    "annotation_count": 41420,
+    "class_count": 80,
+    "sample_classes": "insan, bisiklet, otomobil, motosiklet, uçak, otobüs, tren, kamyon, tekne, trafik ışığı",
+    "health": "90 (A)"
   },
   {
     "name": "Endüstriyel Saha Kask ve KKD Güvenlik Tespiti (7 Sınıf)",
@@ -2068,6 +2079,17 @@
     "health": "100 (A)"
   },
   {
+    "name": "Hava Görüntüsü Tabanlı Açık Alan Nesne Tespiti (6 Sınıf)",
+    "slug": "hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntusu-tabanli-acik-alan-nesne-tespiti-6-sinif",
+    "tasks": "object-detection",
+    "image_count": 2985,
+    "annotation_count": 153581,
+    "class_count": 6,
+    "sample_classes": "bicycle, bus, car, motorcycle, person, truck",
+    "health": "100 (A)"
+  },
+  {
     "name": "Hava Görüntülerinden Trafik Araçları ve Yaya Tespiti (6 Sınıf)",
     "slug": "hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-trafik-araclari-ve-yaya-tespiti-6-sinif",
@@ -2123,17 +2145,6 @@
     "health": "100 (A)"
   },
   {
-    "name": "Mango Meyvesi Olgunluk Derecesi (Ham, Orta, Olgun) Tespiti (3 Sınıf)",
-    "slug": "mango-meyvesi-olgunluk-derecesi-ham-orta-olgun-tespiti-3-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/mango-meyvesi-olgunluk-derecesi-ham-orta-olgun-tespiti-3-sinif",
-    "tasks": "object-detection",
-    "image_count": 2898,
-    "annotation_count": 4045,
-    "class_count": 3,
-    "sample_classes": "Medium, Ripe, Unripe",
-    "health": "100 (A)"
-  },
-  {
     "name": "Ormancılık ve Tarım Alanlarında Ağaç Gövdesi Tespiti (2 Sınıf)",
     "slug": "ormancilik-ve-tarim-alanlarinda-agac-govdesi-tespiti-2-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/ormancilik-ve-tarim-alanlarinda-agac-govdesi-tespiti-2-sinif",
@@ -2154,6 +2165,28 @@
     "class_count": 2,
     "sample_classes": "fire, smoke",
     "health": "100 (A)"
+  },
+  {
+    "name": "Laparoskopik Cerrahi Aletleri (Grasper, Hook, Clipper) Tespiti (7 Sınıf)",
+    "slug": "laparoskopik-cerrahi-aletleri-grasper-hook-clipper-tespiti-7-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/laparoskopik-cerrahi-aletleri-grasper-hook-clipper-tespiti-7-sinif",
+    "tasks": "object-detection",
+    "image_count": 2811,
+    "annotation_count": 3929,
+    "class_count": 7,
+    "sample_classes": "Bipolar, Clipper, Grasper, Hook, Irrigator, Scissors, SpecimenBag",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Spektrogram Radyo Sinyali ve Parazit Tespiti (2 Sınıf)",
+    "slug": "spektrogram-radyo-sinyali-ve-parazit-tespiti-2-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/spektrogram-radyo-sinyali-ve-parazit-tespiti-2-sinif",
+    "tasks": "object-detection",
+    "image_count": 2798,
+    "annotation_count": 3123,
+    "class_count": 2,
+    "sample_classes": "stray, target",
+    "health": "90 (A)"
   },
   {
     "name": "Spektrogram Radyo Sinyali ve Parazit Tespiti (2 Sınıf)",
@@ -2241,6 +2274,17 @@
     "annotation_count": 3233,
     "class_count": 5,
     "sample_classes": "acanthopagrus palmaris, caranx, chaetodon vagabundus, epinephelus, gerres",
+    "health": "90 (A)"
+  },
+  {
+    "name": "Akademik Belge ve Tez Sayfası Yapısal Bölüm Tespiti (24 Sınıf)",
+    "slug": "akademik-belge-ve-tez-sayfasi-yapisal-bolum-tespiti-24-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/akademik-belge-ve-tez-sayfasi-yapisal-bolum-tespiti-24-sinif",
+    "tasks": "object-detection",
+    "image_count": 2701,
+    "annotation_count": 9565,
+    "class_count": 24,
+    "sample_classes": "Chapter Title, Chapter subheading, Title, abstract heading, abstract text, algorithm, author, committee, date, degree",
     "health": "90 (A)"
   },
   {
@@ -2351,17 +2395,6 @@
     "annotation_count": 8807,
     "class_count": 30,
     "sample_classes": "Apple Scab Leaf, Apple leaf, Apple rust leaf, Bell_pepper leaf, Bell_pepper leaf spot, Blueberry leaf, Cherry leaf, Corn Gray leaf spot, Corn leaf blight, Corn rust leaf",
-    "health": "90 (A)"
-  },
-  {
-    "name": "Tekne ve Gemi Sınıflı Deniz Aracı Tespiti (2 Sınıf)",
-    "slug": "tekne-ve-gemi-sinifli-deniz-araci-tespiti-2-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/tekne-ve-gemi-sinifli-deniz-araci-tespiti-2-sinif",
-    "tasks": "object-detection",
-    "image_count": 2528,
-    "annotation_count": 3134,
-    "class_count": 2,
-    "sample_classes": "Boat, Ship",
     "health": "90 (A)"
   },
   {
@@ -3311,17 +3344,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Şantiye Personeli KKD Kullanım ve İhlal Tespiti (12 Sınıf)",
-    "slug": "santiye-personeli-kkd-kullanim-ve-ihlal-tespiti-12-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/santiye-personeli-kkd-kullanim-ve-ihlal-tespiti-12-sinif",
-    "tasks": "object-detection",
-    "image_count": 1000,
-    "annotation_count": 14863,
-    "class_count": 12,
-    "sample_classes": "Person, boots, forklift, gloves, goggles, helmet, no_boots, no_gloves, no_goggle, no_helmet",
-    "health": "90 (A)"
-  },
-  {
     "name": "İçecek Şişesi Tespiti (1 Sınıf)",
     "slug": "icecek-sisesi-tespiti-1-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/icecek-sisesi-tespiti-1-sinif",
@@ -3421,6 +3443,17 @@
     "health": "100 (A)"
   },
   {
+    "name": "Otonom Sürüş İçin Dört Sınıflı Kara Taşıtı Tespiti (4 Sınıf)",
+    "slug": "otonom-surus-icin-dort-sinifli-kara-tasiti-tespiti-4-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/otonom-surus-icin-dort-sinifli-kara-tasiti-tespiti-4-sinif",
+    "tasks": "object-detection",
+    "image_count": 949,
+    "annotation_count": 3554,
+    "class_count": 4,
+    "sample_classes": "bike, bus, car, truck",
+    "health": "100 (A)"
+  },
+  {
     "name": "Havuz İçi Yüzücü, Su Altı Beden ve Hakem Tespiti (5 Sınıf)",
     "slug": "havuz-ici-yuzucu-su-alti-beden-ve-hakem-tespiti-5-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/havuz-ici-yuzucu-su-alti-beden-ve-hakem-tespiti-5-sinif",
@@ -3429,6 +3462,17 @@
     "annotation_count": 13220,
     "class_count": 5,
     "sample_classes": "black-hat, bodysurface, bodyunder, umpire, white-hat",
+    "health": "90 (A)"
+  },
+  {
+    "name": "Şantiye ve İş Güvenliği KKD Kullanım İhlali Tespiti (11 Sınıf)",
+    "slug": "santiye-ve-is-guvenligi-kkd-kullanim-ihlali-tespiti-11-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/santiye-ve-is-guvenligi-kkd-kullanim-ihlali-tespiti-11-sinif",
+    "tasks": "object-detection",
+    "image_count": 918,
+    "annotation_count": 5152,
+    "class_count": 11,
+    "sample_classes": "Glove, Goggle, Hardhat, Mask, NO Glove, NO Goggle, NO Hardhat, NO Mask, NO Vest, Person",
     "health": "90 (A)"
   },
   {
@@ -3487,6 +3531,17 @@
     "health": "90 (A)"
   },
   {
+    "name": "Yol Çalışması KKD Ekipmanları ve Trafik Konisi Tespiti (8 Sınıf)",
+    "slug": "yol-calismasi-kkd-ekipmanlari-ve-trafik-konisi-tespiti-8-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/yol-calismasi-kkd-ekipmanlari-ve-trafik-konisi-tespiti-8-sinif",
+    "tasks": "object-detection",
+    "image_count": 873,
+    "annotation_count": 3993,
+    "class_count": 8,
+    "sample_classes": "Cone, Face_Shield, Gloves, Goggles, Head, Helmet, No glasses, No gloves",
+    "health": "90 (A)"
+  },
+  {
     "name": "İnşaat İskelesi, Merdiven ve Yüksekte Çalışma Baret Güvenliği Tespiti (7 Sınıf)",
     "slug": "insaat-iskelesi-merdiven-ve-yuksekte-calisma-baret-guvenligi-tespiti-7-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/insaat-iskelesi-merdiven-ve-yuksekte-calisma-baret-guvenligi-tespiti-7-sinif",
@@ -3507,6 +3562,17 @@
     "class_count": 6,
     "sample_classes": "Barrenland, Bush, Farmland, Sand, Tree, edgecase",
     "health": "90 (A)"
+  },
+  {
+    "name": "Mobil Vatandaş Bilimi Çok Sınıflı Atık Tespiti (22 Sınıf)",
+    "slug": "mobil-vatandas-bilimi-cok-sinifli-atik-tespiti-22-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/mobil-vatandas-bilimi-cok-sinifli-atik-tespiti-22-sinif",
+    "tasks": "object-detection",
+    "image_count": 850,
+    "annotation_count": 498,
+    "class_count": 22,
+    "sample_classes": "food_bottle_hdpe, food_bottle_pet, food_cup_pp-ps, food_jar_hdpe, food_jar_pet, food_lid_pp-ps, food_mesh_pe-pp, food_packet_pp, food_plate_ps, food_tray_pet",
+    "health": "100 (A)"
   },
   {
     "name": "Hava ve Uydu Görüntülerinden Petrol Kuyusu Tespiti (1 Sınıf)",
@@ -3586,17 +3652,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "ABD Doları Banknot ve Madeni Para Kupür Tespiti (10 Sınıf)",
-    "slug": "abd-dolari-banknot-ve-madeni-para-kupur-tespiti-10-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/abd-dolari-banknot-ve-madeni-para-kupur-tespiti-10-sinif",
-    "tasks": "object-detection",
-    "image_count": 795,
-    "annotation_count": 6175,
-    "class_count": 10,
-    "sample_classes": "Dime, Nickel, Penny, Quarter, fifty, five, hundred, one, ten, twenty",
-    "health": "90 (A)"
-  },
-  {
     "name": "Çok Türlü Kara ve Raylı Ulaşım Araçları Tespiti (5 Sınıf)",
     "slug": "cok-turlu-kara-ve-rayli-ulasim-araclari-tespiti-5-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/cok-turlu-kara-ve-rayli-ulasim-araclari-tespiti-5-sinif",
@@ -3663,17 +3718,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "İnşaat Sahası Baret, Maske, Yelek ve Araç Güvenliği Tespiti (8 Sınıf)",
-    "slug": "insaat-sahasi-baret-maske-yelek-ve-arac-guvenligi-tespiti-8-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/insaat-sahasi-baret-maske-yelek-ve-arac-guvenligi-tespiti-8-sinif",
-    "tasks": "object-detection",
-    "image_count": 717,
-    "annotation_count": 3944,
-    "class_count": 8,
-    "sample_classes": "Hardhat, Mask, NO-Hardhat, NO-Mask, NO-Safety Vest, Person, Safety Vest, vehicle",
-    "health": "100 (A)"
-  },
-  {
     "name": "Sağlam ve Hasarlı Elma Kalite Ayrıştırma Tespiti (2 Sınıf)",
     "slug": "saglam-ve-hasarli-elma-kalite-ayristirma-tespiti-2-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/saglam-ve-hasarli-elma-kalite-ayristirma-tespiti-2-sinif",
@@ -3705,6 +3749,28 @@
     "class_count": 3,
     "sample_classes": "Chair, Sofa, Table",
     "health": "90 (A)"
+  },
+  {
+    "name": "Deniz Çöpleri ve Su Altı Atık Nesne Tespiti (8 Sınıf)",
+    "slug": "deniz-copleri-ve-su-alti-atik-nesne-tespiti-8-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/deniz-copleri-ve-su-alti-atik-nesne-tespiti-8-sinif",
+    "tasks": "object-detection",
+    "image_count": 684,
+    "annotation_count": 1183,
+    "class_count": 8,
+    "sample_classes": "machinery_and_appliance, building_material, cinder_block, plastic_object, tire, trash_rope, plastic_fragment, metal_object",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Laboratuvar Meyve Sineği Davranış ve Konum Tespiti (2 Sınıf)",
+    "slug": "laboratuvar-meyve-sinegi-davranis-ve-konum-tespiti-2-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/laboratuvar-meyve-sinegi-davranis-ve-konum-tespiti-2-sinif",
+    "tasks": "object-detection",
+    "image_count": 676,
+    "annotation_count": 1013,
+    "class_count": 2,
+    "sample_classes": "fly, copulation",
+    "health": "100 (A)"
   },
   {
     "name": "Baskı Devre Kartı (PCB) Elektronik Bileşen Tespiti (22 Sınıf)",
@@ -3817,6 +3883,17 @@
     "health": "90 (A)"
   },
   {
+    "name": "Endüstriyel Robotik RoboCup@Work Parça Tespiti (12 Sınıf)",
+    "slug": "endustriyel-robotik-robocupwork-parca-tespiti-12-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/endustriyel-robotik-robocupwork-parca-tespiti-12-sinif",
+    "tasks": "object-detection",
+    "image_count": 575,
+    "annotation_count": 2875,
+    "class_count": 12,
+    "sample_classes": "DECOY, F20_20_H, F20_20_V, M20_100_H, M20_H, M20_V, M30_H, M30_V, R20_H, R20_V",
+    "health": "100 (A)"
+  },
+  {
     "name": "Hava Görüntülerinden Bina, Havuz ve Silo Segmentasyonu (3 Sınıf)",
     "slug": "hava-goruntulerinden-bina-havuz-ve-silo-segmentasyonu-3-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-bina-havuz-ve-silo-segmentasyonu-3-sinif",
@@ -3828,6 +3905,17 @@
     "health": "90 (A)"
   },
   {
+    "name": "Su Ürünleri Yavru Balık (Oreochromis Niloticus) Sayımı (1 Sınıf)",
+    "slug": "su-urunleri-yavru-balik-oreochromis-niloticus-sayimi-1-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/su-urunleri-yavru-balik-oreochromis-niloticus-sayimi-1-sinif",
+    "tasks": "object-detection",
+    "image_count": 523,
+    "annotation_count": 3878,
+    "class_count": 1,
+    "sample_classes": "tilapia-6-cm",
+    "health": "100 (A)"
+  },
+  {
     "name": "Hava Görüntülerinden Renkli Küre Hedef Tespiti (6 Sınıf)",
     "slug": "hava-goruntulerinden-renkli-kure-hedef-tespiti-6-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-renkli-kure-hedef-tespiti-6-sinif",
@@ -3836,17 +3924,6 @@
     "annotation_count": 1863,
     "class_count": 6,
     "sample_classes": "green_sphero, orange-sphero, orange_sphero, purple_sphero, red_sphero, yellow_sphero",
-    "health": "90 (A)"
-  },
-  {
-    "name": "Yapısal Duvar Hasar Seviyesi Tespiti (3 Sınıf)",
-    "slug": "yapisal-duvar-hasar-seviyesi-tespiti-3-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/yapisal-duvar-hasar-seviyesi-tespiti-3-sinif",
-    "tasks": "object-detection",
-    "image_count": 461,
-    "annotation_count": 461,
-    "class_count": 3,
-    "sample_classes": "Minorrotation, Moderaterotation, Severerotation",
     "health": "90 (A)"
   },
   {
@@ -3881,6 +3958,17 @@
     "class_count": 2,
     "sample_classes": "cavity, normal",
     "health": "90 (A)"
+  },
+  {
+    "name": "Pamuk Tarımı Zararlı Böcek Türleri Tespiti (19 Sınıf)",
+    "slug": "pamuk-tarimi-zararli-bocek-turleri-tespiti-19-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/pamuk-tarimi-zararli-bocek-turleri-tespiti-19-sinif",
+    "tasks": "object-detection",
+    "image_count": 414,
+    "annotation_count": 414,
+    "class_count": 19,
+    "sample_classes": "0, 8, 1, 2, 3, 4, 5, 6, 7, 9",
+    "health": "100 (A)"
   },
   {
     "name": "Pamuk Bitkisi Botanik Türleri Segmentasyonu (4 Sınıf)",
@@ -3960,17 +4048,6 @@
     "health": "90 (A)"
   },
   {
-    "name": "Hava Görüntülerinden Açık Mera Sığır ve Büyükbaş Tespiti (1 Sınıf)",
-    "slug": "hava-goruntulerinden-acik-mera-sigir-ve-buyukbas-tespiti-1-sinif",
-    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/hava-goruntulerinden-acik-mera-sigir-ve-buyukbas-tespiti-1-sinif",
-    "tasks": "object-detection",
-    "image_count": 342,
-    "annotation_count": 8132,
-    "class_count": 1,
-    "sample_classes": "vaca",
-    "health": "90 (A)"
-  },
-  {
     "name": "Animasyon Avatar Karakter Tespiti (1 Sınıf)",
     "slug": "animasyon-avatar-karakter-tespiti-1-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/animasyon-avatar-karakter-tespiti-1-sinif",
@@ -3993,6 +4070,39 @@
     "health": "90 (A)"
   },
   {
+    "name": "Kent İçi Yol Kasis ve Hız Kesici Engel Tespiti (1 Sınıf)",
+    "slug": "kent-ici-yol-kasis-ve-hiz-kesici-engel-tespiti-1-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kent-ici-yol-kasis-ve-hiz-kesici-engel-tespiti-1-sinif",
+    "tasks": "object-detection",
+    "image_count": 300,
+    "annotation_count": 309,
+    "class_count": 1,
+    "sample_classes": "Speed-Bump",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Yol Güvenliği Hız Kesici Kasis Tespiti (1 Sınıf)",
+    "slug": "yol-guvenligi-hiz-kesici-kasis-tespiti-1-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/yol-guvenligi-hiz-kesici-kasis-tespiti-1-sinif",
+    "tasks": "object-detection",
+    "image_count": 298,
+    "annotation_count": 308,
+    "class_count": 1,
+    "sample_classes": "Speed-Bump",
+    "health": "100 (A)"
+  },
+  {
+    "name": "El Çizimi Sayısal Mantık Devresi Bileşen Tespiti (7 Sınıf)",
+    "slug": "el-cizimi-sayisal-mantik-devresi-bilesen-tespiti-7-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/el-cizimi-sayisal-mantik-devresi-bilesen-tespiti-7-sinif",
+    "tasks": "object-detection",
+    "image_count": 295,
+    "annotation_count": 1203,
+    "class_count": 7,
+    "sample_classes": "AND, NAND, NOR, NOT, OR, XNOR, XOR",
+    "health": "100 (A)"
+  },
+  {
     "name": "Satranç Tahtası Siyah ve Beyaz Taşlar Tespiti (13 Sınıf)",
     "slug": "satranc-tahtasi-siyah-ve-beyaz-taslar-tespiti-13-sinif",
     "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/satranc-tahtasi-siyah-ve-beyaz-taslar-tespiti-13-sinif",
@@ -4013,6 +4123,17 @@
     "class_count": 4,
     "sample_classes": "Lower, Sand Tiger Shark, Snaggletooth Shark, Upper",
     "health": "90 (A)"
+  },
+  {
+    "name": "Kentsel Çevre ve Atık Alanı Tespit Veri Seti (2 Sınıf)",
+    "slug": "kentsel-cevre-ve-atik-alani-tespit-veri-seti-2-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/kentsel-cevre-ve-atik-alani-tespit-veri-seti-2-sinif",
+    "tasks": "object-detection",
+    "image_count": 242,
+    "annotation_count": 244,
+    "class_count": 2,
+    "sample_classes": "greenfly, notgreenfly",
+    "health": "100 (A)"
   },
   {
     "name": "Endüstriyel Manometre Kadranı ve Gösterge Değeri Tespiti (2 Sınıf)",
@@ -4134,6 +4255,39 @@
     "class_count": 2,
     "sample_classes": "dog, person",
     "health": "90 (A)"
+  },
+  {
+    "name": "Endüstriyel Kişisel Koruyucu Donanım (KKD) Tespiti (4 Sınıf)",
+    "slug": "endustriyel-kisisel-koruyucu-donanim-kkd-tespiti-4-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/endustriyel-kisisel-koruyucu-donanim-kkd-tespiti-4-sinif",
+    "tasks": "object-detection",
+    "image_count": 200,
+    "annotation_count": 539,
+    "class_count": 4,
+    "sample_classes": "Helmet, NoHelmet, NoVest, Vest",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Su Ürünleri Beyaz Tepsi Yavru Balık (10 Balık) Tespiti (1 Sınıf)",
+    "slug": "su-urunleri-beyaz-tepsi-yavru-balik-10-balik-tespiti-1-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/su-urunleri-beyaz-tepsi-yavru-balik-10-balik-tespiti-1-sinif",
+    "tasks": "object-detection",
+    "image_count": 200,
+    "annotation_count": 2000,
+    "class_count": 1,
+    "sample_classes": "0",
+    "health": "100 (A)"
+  },
+  {
+    "name": "Su Ürünleri Beyaz Tepsi Yavru Balık (20 Balık) Tespiti (1 Sınıf)",
+    "slug": "su-urunleri-beyaz-tepsi-yavru-balik-20-balik-tespiti-1-sinif",
+    "evren_url": "https://evren.ssyz.org.tr/datasets/u19979974710e/su-urunleri-beyaz-tepsi-yavru-balik-20-balik-tespiti-1-sinif",
+    "tasks": "object-detection",
+    "image_count": 199,
+    "annotation_count": 3980,
+    "class_count": 1,
+    "sample_classes": "fish",
+    "health": "100 (A)"
   },
   {
     "name": "Romatoloji El Röntgeni Kemik ve Eklem Anatomisi Tespiti (12 Sınıf)",
